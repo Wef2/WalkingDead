@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WalkingDead</string>
+    <string name="title_activity_running">Map</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
