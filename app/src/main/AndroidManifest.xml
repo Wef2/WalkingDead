@@ -19,22 +19,22 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ModeActivity" />
-        <activity android:name=".WalkingActivity" />
-        <activity android:name=".MypageActivity" />
+        <activity android:name=".activity.ModeActivity" />
+        <activity android:name=".activity.WalkingActivity" />
+        <activity android:name=".activity.MypageActivity" />
         <activity
-            android:name=".RunningModeSettingActivity"
+            android:name=".activity.RunningModeSettingActivity"
             android:label="@string/title_activity_test"></activity>
         <activity
-            android:name=".RunningActivity"
+            android:name=".activity.RunningActivity"
             android:label="@string/title_activity_running"></activity>
     </application>
 

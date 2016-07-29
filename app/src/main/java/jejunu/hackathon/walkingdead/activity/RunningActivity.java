@@ -1,4 +1,4 @@
-package jejunu.hackathon.walkingdead;
+package jejunu.hackathon.walkingdead.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.support.v4.app.FragmentActivity;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import jejunu.hackathon.walkingdead.R;
+import jejunu.hackathon.walkingdead.model.Zombie;
 
 public class RunningActivity extends FragmentActivity {
 

@@ -1,7 +1,9 @@
-package jejunu.hackathon.walkingdead;
+package jejunu.hackathon.walkingdead.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import jejunu.hackathon.walkingdead.R;
 
 public class MypageActivity extends AppCompatActivity {
 

@@ -1,20 +1,19 @@
-package jejunu.hackathon.walkingdead;
+package jejunu.hackathon.walkingdead.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
-import android.widget.Toast;
 
 import com.nhn.android.maps.NMapActivity;
 import com.nhn.android.maps.NMapController;
 import com.nhn.android.maps.NMapView;
 import com.nhn.android.maps.maplib.NGeoPoint;
 import com.nhn.android.maps.nmapmodel.NMapError;
+
+import jejunu.hackathon.walkingdead.R;
 
 public class RunningModeSettingActivity extends NMapActivity{
 
@@ -43,6 +42,8 @@ public class RunningModeSettingActivity extends NMapActivity{
         mMapView.setFocusable(true);
         mMapView.setFocusableInTouchMode(true);
         mMapView.requestFocus();
+
+
 
         // register listener for map state changes
         mMapView.setOnMapStateChangeListener(onMapViewStateChangeListener);

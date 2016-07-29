@@ -1,10 +1,12 @@
-package jejunu.hackathon.walkingdead;
+package jejunu.hackathon.walkingdead.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import jejunu.hackathon.walkingdead.R;
 
 public class ModeActivity extends AppCompatActivity {
 

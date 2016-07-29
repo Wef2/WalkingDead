@@ -1,9 +1,11 @@
-package jejunu.hackathon.walkingdead;
+package jejunu.hackathon.walkingdead.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import jejunu.hackathon.walkingdead.R;
 
 public class SplashActivity extends AppCompatActivity {
 
